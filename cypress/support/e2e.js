@@ -19,3 +19,13 @@ require('cypress-xpath');
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+// module.exports = (on) => {
+//     on('task', {
+//     'resetDb': () => {
+//         const resert = require('../../db/reset.js');
+//         return resert()
+//     },
+        
+//     })
+// }
